@@ -2,7 +2,7 @@
   'use strict';
   const $ = id => document.getElementById(id);
   const D = window.TRACK_DATA;
-  if (!D || !window.TrackTime) {
+  if (!D || !window.TrackTime || !window.TrackGeo) {
     $('segment-detail').textContent = 'The local data files did not load. Keep the assets and data folders beside index.html, then reload.';
     return;
   }
@@ -13,10 +13,39 @@
   const svg = $('map'), stage = $('map-stage');
   const [west, south, east, north] = D.geojson.bbox;
   const latitude = (north + south) / 2, longitude = (west + east) / 2;
-  const cosLat = Math.cos(latitude * Math.PI / 180);
-  const project = ([lon, lat]) => [(lon - longitude) * cosLat * 1000, (latitude - lat) * 1000];
+  const centerWorld=TrackGeo.world([longitude,latitude]);
+  const project = lonLat => {const point=TrackGeo.world(lonLat);return[point[0]-centerWorld[0],point[1]-centerWorld[1]];};
   const elements = new Map(), paths = new Map();
   let visible = [], view, fullView, drag = null, announcementTimer = null;
+  let tileTimer=null;
+  const tileNodes=new Map();
+  // Public USGS/XYZ provider configuration is verified in BASEMAP.md.
+  const basemap={minZoom:3,maxZoom:16,url:(z,x,y)=>`https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/${z}/${y}/${x}`};
+  function scheduleBasemap(){clearTimeout(tileTimer);tileTimer=setTimeout(renderBasemap,90);}
+  function renderBasemap(){
+    if(!view)return;
+    const z=Math.max(basemap.minZoom,Math.min(basemap.maxZoom,TrackGeo.BASE_ZOOM+Math.round(Math.log2(stage.clientWidth/view.w))));
+    const span=TrackGeo.tileSpan(z),limit=2**z;
+    const left=Math.max(0,Math.floor((view.x+centerWorld[0])/span)),right=Math.min(limit-1,Math.floor((view.x+view.w+centerWorld[0])/span));
+    const top=Math.max(0,Math.floor((view.y+centerWorld[1])/span)),bottom=Math.min(limit-1,Math.floor((view.y+view.h+centerWorld[1])/span));
+    const needed=new Set();
+    for(let x=left;x<=right;x++)for(let y=top;y<=bottom;y++){
+      const key=`${z}/${x}/${y}`;needed.add(key);
+      if(tileNodes.has(key))continue;
+      const tile=svgNode('image',{x:x*span-centerWorld[0],y:y*span-centerWorld[1],width:span,height:span,href:basemap.url(z,x,y),preserveAspectRatio:'none'});
+      tile.dataset.state='loading';
+      tile.addEventListener('load',()=>{tile.dataset.state='loaded';basemapStatus();});
+      tile.addEventListener('error',()=>{tile.dataset.state='failed';basemapStatus();});
+      tileNodes.set(key,tile);$('basemap').append(tile);
+    }
+    for(const[key,tile]of tileNodes)if(!needed.has(key)){tile.remove();tileNodes.delete(key);}
+    basemapStatus();
+  }
+  function basemapStatus(){
+    const nodes=[...tileNodes.values()],failed=nodes.filter(n=>n.dataset.state==='failed').length;
+    $('basemap-status').hidden=!failed;
+    $('basemap-status').textContent=failed===nodes.length?'Basemap unavailable':'Some basemap tiles unavailable';
+  }
   const human = value => String(value ?? '').replaceAll('_', ' ');
   const make = (tag, cls, text) => {const e = document.createElement(tag); if (cls) e.className = cls; if (text !== undefined) e.textContent = text; return e;};
   const svgNode = (tag, attrs) => {const n = document.createElementNS(svgNS, tag); for (const [k, v] of Object.entries(attrs)) n.setAttribute(k, v); return n;};
@@ -39,12 +68,14 @@
   }
   function applyView() {
     svg.setAttribute('viewBox', `${view.x} ${view.y} ${view.w} ${view.h}`);
-    const kmPerWorldUnit = 111.195 / 1000;
+    const centerLat=TrackGeo.lonLat([centerWorld[0]+view.x+view.w/2,centerWorld[1]+view.y+view.h/2])[1];
+    const kmPerWorldUnit = TrackGeo.kilometersPerUnit(centerLat);
     const targetKm = (70 / stage.clientWidth) * view.w * kmPerWorldUnit;
     const lengths = [.1, .2, .5, 1, 2, 5, 10, 20, 50];
     const km = lengths.reduce((best, n) => Math.abs(Math.log(n / targetKm)) < Math.abs(Math.log(best / targetKm)) ? n : best, lengths[0]);
     $('scale-line').style.width = `${km / kmPerWorldUnit / view.w * stage.clientWidth}px`;
     $('scale-label').textContent = km < 1 ? `${km * 1000} m` : `${km} km`;
+    scheduleBasemap();
   }
   function fitNetwork() {fullView = viewForBounds(geometryBounds(features)); view = {...fullView}; applyView();}
   function zoom(factor, px = stage.clientWidth / 2, py = stage.clientHeight / 2) {
