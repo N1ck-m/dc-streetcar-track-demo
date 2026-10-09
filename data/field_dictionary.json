@@ -1,0 +1,216 @@
+{
+  "schema_version": "1.0.0",
+  "geojson_contract": {
+    "type": "FeatureCollection",
+    "coordinates": "WGS 84 EPSG:4326 longitude, latitude decimal degrees; all LineString; exact M6 geometry preserved",
+    "feature_id": "Equals properties.segment_id",
+    "bbox": "[minimum longitude, minimum latitude, maximum longitude, maximum latitude]"
+  },
+  "temporal_boundary_convention": {
+    "predicate": "start_year <= selected_year <= end_year",
+    "year_type": "Integer calendar year",
+    "endpoints": "Inclusive at annual granularity; start and end both display, including a same-year pair",
+    "meaning": "Within proposed earliest/latest passenger-use outer envelope, not proven active service in that year",
+    "null_policy": "No missing years in this delivery. A consumer must explicitly handle any future missing/invalid year; do not coerce null to zero or infinity.",
+    "exclusions": "Do not silently subtract prose interruptions, infer full-year continuity, or substitute uncertainty-expanded bounds. Do not interpret years as construction or track removal.",
+    "uncertainty_ranges": "Inclusive editorial plausible bounds around each endpoint, not a statistical confidence interval; zero-width does not mean verified",
+    "persistent_caveat": "Proposed outer-year envelope; does not establish uninterrupted service."
+  },
+  "feature_properties": {
+    "segment_id": {
+      "type": "string",
+      "nullable": false,
+      "definition": "Stable PhysicalSegment.id from M6; authoritative join key to evidence and identity manifest."
+    },
+    "fid": {
+      "type": "integer",
+      "nullable": false,
+      "definition": "Current M6 PhysicalSegment fid, retained for human reference. Never use as the durable join key."
+    },
+    "name": {
+      "type": "string",
+      "nullable": false,
+      "definition": "Exact current M6 PhysicalSegment.label. Preferred display name; not rewritten or inferred."
+    },
+    "estimate_label": {
+      "type": "string",
+      "nullable": false,
+      "definition": "Historical source-ledger segment_label, retained for provenance only. Not the current M6 name."
+    },
+    "atlas_area_id": {
+      "type": "string",
+      "nullable": false,
+      "definition": "Current M6 atlas area identifier, copied without reinterpretation. Values include DC, ALX, ARL, FFX, MONT and PG."
+    },
+    "geometry_hash": {
+      "type": "string",
+      "nullable": false,
+      "definition": "SHA-256 matching ResearchGeometry.working_geometry_hash and recovered estimate.geometry_hash. Recomputed from geometry JSON with sorted keys, no whitespace, UTF-8, ensure_ascii=False."
+    },
+    "estimate_id": {
+      "type": "string",
+      "nullable": false,
+      "definition": "Recovered provisional estimate identifier; separate from the physical-segment stable ID."
+    },
+    "start_year": {
+      "type": "integer",
+      "nullable": false,
+      "definition": "Alias of recovered opening_best_year: proposed earliest passenger-use year for one or more identified portions of this generalized segment. Not a track installation date."
+    },
+    "end_year": {
+      "type": "integer",
+      "nullable": false,
+      "definition": "Alias of recovered closing_best_year: proposed latest passenger-use year for one or more identified portions of this generalized segment. Not a track removal date."
+    },
+    "start_earliest_year": {
+      "type": "integer",
+      "nullable": false,
+      "definition": "Alias of opening_earliest_year: earliest inclusive editorial plausible value of the opening endpoint, not an independently established operating date."
+    },
+    "start_latest_year": {
+      "type": "integer",
+      "nullable": false,
+      "definition": "Alias of opening_latest_year: latest inclusive editorial plausible value of the opening endpoint, not proof of service from this year."
+    },
+    "end_earliest_year": {
+      "type": "integer",
+      "nullable": false,
+      "definition": "Alias of closing_earliest_year: earliest inclusive editorial plausible value of the closing endpoint, not proof of service through this year."
+    },
+    "end_latest_year": {
+      "type": "integer",
+      "nullable": false,
+      "definition": "Alias of closing_latest_year: latest inclusive editorial plausible value of the closing endpoint, not an independently established operating date."
+    },
+    "start_confidence": {
+      "type": "string enum: high, medium, low, very_low",
+      "nullable": false,
+      "definition": "Recovered opening_confidence, unchanged. Qualitative editorial assessment, not a probability and not verification."
+    },
+    "end_confidence": {
+      "type": "string enum: high, medium, low, very_low",
+      "nullable": false,
+      "definition": "Recovered closing_confidence, unchanged. Qualitative editorial assessment, not a probability and not verification."
+    },
+    "confidence_group": {
+      "type": "string enum: medium_high, low, very_low",
+      "nullable": false,
+      "definition": "Derived from the lower-rated endpoint in order very_low < low < medium < high. very_low = either endpoint very_low; low = either low and neither very_low; medium_high = both medium/high."
+    },
+    "estimate_status": {
+      "type": "string",
+      "nullable": false,
+      "definition": "Recovered status: provisional_not_verified_not_admitted. No promotion into canonical OperatingPeriods or verified dates."
+    },
+    "mixed_subextent": {
+      "type": "boolean",
+      "nullable": false,
+      "definition": "True when recovery audit found explicit subextent records/differing scoped histories. Fourteen true values. False does not establish uniformity; additional prose may contain mixed history."
+    },
+    "has_known_periods": {
+      "type": "boolean",
+      "nullable": false,
+      "definition": "True when the recovered known_periods array is nonempty. These records are heterogeneous evidence, not a normalized service timeline."
+    },
+    "citation_review_warning": {
+      "type": "string or null",
+      "nullable": true,
+      "definition": "Recovery-audit citation-scope caution. Five populated warnings: fids 1,2,3,6,112. Does not itself establish that a proposed endpoint year is incorrect."
+    },
+    "continuous_operation_asserted": {
+      "type": "boolean",
+      "nullable": false,
+      "definition": "Always false. This package never asserts uninterrupted operation between proposed endpoints."
+    },
+    "whole_segment_uniform_lifespan_asserted": {
+      "type": "boolean",
+      "nullable": false,
+      "definition": "Always false. Endpoint estimates may describe different portions of the same generalized carrier."
+    },
+    "source_ids": {
+      "type": "array of strings",
+      "nullable": false,
+      "definition": "Recovered direct/source association IDs resolving to source_registry.json. A listed source may support a scoped event/corridor, not exact authored vertices or the entire envelope."
+    },
+    "context_source_ids": {
+      "type": "array of strings",
+      "nullable": false,
+      "definition": "Recovered contextual source IDs resolving to source_registry.json; do not treat automatically as direct endpoint proof."
+    },
+    "basis_claim_ids": {
+      "type": "array of strings",
+      "nullable": false,
+      "definition": "Historical claim identifiers retained for provenance. Embedded original claim/source payloads are not included in this public projection; consult the separately supplied recovery data for those records."
+    },
+    "evidence_id": {
+      "type": "string",
+      "nullable": false,
+      "definition": "Equals segment_id. Lookup key in evidence.json.segments and recovered_ledger_sanitized.json."
+    },
+    "start_estimated_date": {
+      "type": "ISO date string or null",
+      "nullable": true,
+      "definition": "Alias of opening_best_date. Only fids 237/238 have 1923-12-02. Day-precision estimate, not a verified date. Not used by annual filtering."
+    },
+    "end_estimated_date": {
+      "type": "ISO date string or null",
+      "nullable": true,
+      "definition": "Alias of closing_best_date. All values null in this delivery; no day-precision closing estimate is supplied."
+    },
+    "start_precision": {
+      "type": "string enum: year, day",
+      "nullable": false,
+      "definition": "Recovered opening_precision. year for 267 segments and day for two; precision does not establish verification."
+    },
+    "end_precision": {
+      "type": "string enum: year",
+      "nullable": false,
+      "definition": "Recovered closing_precision. Year precision for all 269."
+    },
+    "verified_start_date": {
+      "type": "ISO date string or null",
+      "nullable": true,
+      "definition": "Alias of verified_opening_date. All null. Do not fill from start_year or start_estimated_date."
+    },
+    "verified_end_date": {
+      "type": "ISO date string or null",
+      "nullable": true,
+      "definition": "Alias of verified_closing_date. All null. Do not fill from end_year or end_estimated_date."
+    },
+    "passenger_use_existence": {
+      "type": "string",
+      "nullable": false,
+      "definition": "Recovered passenger-use qualification, unchanged. Read together with geometry_correspondence, operational_role_uncertainty and evidence; not a broad passenger/nonpassenger boolean."
+    },
+    "geometry_correspondence": {
+      "type": "string",
+      "nullable": false,
+      "definition": "Recovered qualification of historical evidence’s correspondence to this exact geometry, unchanged. Matching source and M6 geometry hashes does not resolve historical spatial uncertainty."
+    },
+    "uncertainty_reason_group": {
+      "type": "string",
+      "nullable": false,
+      "definition": "Recovered qualitative uncertainty category, unchanged. Identifies date/course, specific geometry, operating-use, apparatus or mode-scope concerns; not an exclusion rule."
+    }
+  },
+  "evidence_schema": {
+    "schema_version": "String version",
+    "record_contract": "Human-readable lookup and sanitation contract",
+    "segments": "Object keyed by segment_id",
+    "segments[segment_id].recovered_ledger": "Curated factual/editorial fields only: endpoint rationale, scope/uncertainty descriptions, known_periods, subextent_estimates, alternative_scenarios, and basis_evidence claim IDs. Full original source payloads omitted.",
+    "segments[segment_id].audit.citation_review_warning": "Same warning as GeoJSON citation_review_warning",
+    "segments[segment_id].audit.explicit_mixed_subextent": "Same flag as GeoJSON mixed_subextent",
+    "segments[segment_id].audit.recommended_next_research": "Recovery-audit recommended research, not a newly executed or verified result"
+  },
+  "source_registry_schema": {
+    "key": "Source ID, matching record.id",
+    "id": "Recovered source identifier",
+    "title": "Recovered bibliographic title; some explicitly lack a supplied title",
+    "creator": "Recovered creator or null",
+    "publication_date_text": "Recovered publication-date text or null; not necessarily event date",
+    "source_uri": "Retained HTTP(S) URL, or null when missing/incomplete/token-bearing; not live checked",
+    "url_review_status": "retained_not_live_checked, not_supplied, incomplete_url_omitted, or unverified_token_url_withheld"
+  },
+  "nested_evidence_semantics": "Known periods, subextent estimates and alternative scenarios are retained short factual/editorial summaries. They are not normalized operating intervals. basis_evidence contains only claim IDs; scope_evidence is empty in the public projection.",
+  "provenance_reference": "metadata.json records binding, original data hashes and the public evidence projection. Full local recovery evidence and its validation are supplied separately."
+}

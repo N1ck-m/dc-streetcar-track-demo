@@ -1,0 +1,32 @@
+[
+  {
+    "fid": 1,
+    "segment_id": "segment-7462a55b2aba7be5",
+    "name": "M Street and old Twenty-sixth bridge approach; through the Pennsylvania junction (DC portion)",
+    "citation_review_warning": "Embedded basis claim DC-TIME-DCLV-C10 explicitly concerns Georgia Avenue–Seventh Street, route 72, rather than this M/Pennsylvania carrier. Confirm the appropriate geographically scoped closing witness; this warning does not establish that the proposed year is wrong."
+  },
+  {
+    "fid": 2,
+    "segment_id": "segment-1e7135cecb7e48aa",
+    "name": "Pennsylvania Avenue east of the old bridge junction (DC portion)",
+    "citation_review_warning": "Embedded basis claim DC-TIME-DCLV-C10 explicitly concerns Georgia Avenue–Seventh Street, route 72, rather than this M/Pennsylvania carrier. Confirm the appropriate geographically scoped closing witness; this warning does not establish that the proposed year is wrong."
+  },
+  {
+    "fid": 3,
+    "segment_id": "segment-5d5b16f6c0154ab2",
+    "name": "Whole retained carrier; geographic association only, not proof of complete service traversal. (DC portion)",
+    "citation_review_warning": "Embedded basis claim DC-TIME-DCLV-C10 explicitly concerns Georgia Avenue–Seventh Street, route 72, rather than this M/Pennsylvania carrier. Confirm the appropriate geographically scoped closing witness; this warning does not establish that the proposed year is wrong."
+  },
+  {
+    "fid": 6,
+    "segment_id": "segment-095ca9d016893a2b",
+    "name": "Whole retained carrier; geographic association only, not proof of complete service traversal. (DC portion)",
+    "citation_review_warning": "Embedded basis claim DC-TIME-DCLV-C10 explicitly concerns Georgia Avenue–Seventh Street, route 72, rather than this M/Pennsylvania carrier. Confirm the appropriate geographically scoped closing witness; this warning does not establish that the proposed year is wrong."
+  },
+  {
+    "fid": 112,
+    "segment_id": "segment-3246a755a6eaa63b",
+    "name": "Whole retained carrier; geographic association only, not proof of complete service traversal. (DC portion)",
+    "citation_review_warning": "Embedded basis claim DC-TIME-DCLV-C10 explicitly concerns Georgia Avenue–Seventh Street, route 72, rather than this M/Pennsylvania carrier. Confirm the appropriate geographically scoped closing witness; this warning does not establish that the proposed year is wrong."
+  }
+]

@@ -1,0 +1,1546 @@
+{
+  "ALEX-CITY-ELECTRIC": {
+    "id": "ALEX-CITY-ELECTRIC",
+    "title": "Wayfinding: Electric Railway",
+    "creator": null,
+    "publication_date_text": "Updated December 29, 2021",
+    "source_uri": "https://alexandriava.gov/historic-sites/basic-page/wayfinding-electric-railway",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "ALEX-CITY-ELECTRIC-2021": {
+    "id": "ALEX-CITY-ELECTRIC-2021",
+    "title": "City of Alexandria: Wayfinding Electric Railway",
+    "creator": null,
+    "publication_date_text": "2021-12-29",
+    "source_uri": "https://alexandriava.gov/historic-sites/basic-page/wayfinding-electric-railway",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "ALEX-CITY-HORSECAR": {
+    "id": "ALEX-CITY-HORSECAR",
+    "title": "Alexandria’s early public transportation",
+    "creator": null,
+    "publication_date_text": "April 16, 2020",
+    "source_uri": "https://media.alexandriava.gov/docs-archives/historic/info/attic/2020/attic20200416horsecars.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "ALEX-DECADES": {
+    "id": "ALEX-DECADES",
+    "title": "City of Alexandria: Discovering the Decades, 1870 s",
+    "creator": null,
+    "publication_date_text": "undated; current page inspected2026-10-05",
+    "source_uri": "https://www.alexandriava.gov/historic-alexandria/the-history-of-alexandria-discovering-the-decades",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "ALEX-FAIRFAX1895": {
+    "id": "ALEX-FAIRFAX1895",
+    "title": "Fisherman and Farmer: MountVernon electric line description",
+    "creator": null,
+    "publication_date_text": "1895-02-22",
+    "source_uri": "https://tile.loc.gov/storage-services/service/ndnp/ncu/batch_ncu_elk_ver01/data/sn91068084/00296023231/1895022201/0033.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "ALEX-HORSECAR2020": {
+    "id": "ALEX-HORSECAR2020",
+    "title": "Office of Historic Alexandria: Alexandria’s early public transportation",
+    "creator": null,
+    "publication_date_text": "2020-04-16",
+    "source_uri": "https://media.alexandriava.gov/docs-archives/historic/info/attic/2020/attic20200416horsecars.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "AUDIT-DC-NPS2005-DUPONT": {
+    "id": "AUDIT-DC-NPS2005-DUPONT",
+    "title": "Streetcar and Bus Resources of Washington, D.C., 1862–1962",
+    "creator": null,
+    "publication_date_text": "June 2005 prepared form",
+    "source_uri": "https://npgallery.nps.gov/pdfhost/docs/NRHP/Text/64500948.pdf#page=71",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "AUDIT-ENTHOFFER1873-CAPITOL": {
+    "id": "AUDIT-ENTHOFFER1873-CAPITOL",
+    "title": "Joseph Enthoffer, Faehtz & Pratt premium map of Washington, 1873; updated January 1, 1874",
+    "creator": null,
+    "publication_date_text": "",
+    "source_uri": "https://www.loc.gov/item/88693469/",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "AUDIT-MORRISON1868-CAPITOL": {
+    "id": "AUDIT-MORRISON1868-CAPITOL",
+    "title": "W. H. & O. H. Morrison, Map of the city of Washington, 1868",
+    "creator": null,
+    "publication_date_text": "",
+    "source_uri": "https://www.loc.gov/item/88693492/",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "AUDIT-NPS2005-MET-EARLY": {
+    "id": "AUDIT-NPS2005-MET-EARLY",
+    "title": "Streetcar and Bus Resources of Washington, D.C., 1862–1962, NPS multiple-property documentation",
+    "creator": null,
+    "publication_date_text": "",
+    "source_uri": "https://npgallery.nps.gov/pdfhost/docs/NRHP/Text/64500948.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "AUDIT-PUC1935-P35": {
+    "id": "AUDIT-PUC1935-P35",
+    "title": "Twenty-third Annual Report of the Public Utilities Commission of the District of Columbia, calendar1935",
+    "creator": null,
+    "publication_date_text": "",
+    "source_uri": "https://www.govinfo.gov/content/pkg/SERIALSET-10058_00_00-002-0401-0000/pdf/SERIALSET-10058_00_00-002-0401-0000.pdf#page=41",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "AUDIT-WILDWOOD-TERMINAL-NPS2005": {
+    "id": "AUDIT-WILDWOOD-TERMINAL-NPS2005",
+    "title": "NPS streetcar resources documentation, Wildwood/Glen Sligo terminus account",
+    "creator": null,
+    "publication_date_text": "",
+    "source_uri": "https://npgallery.nps.gov/pdfhost/docs/NRHP/Text/64500948.pdf#page=55",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "BR-S001": {
+    "id": "BR-S001",
+    "title": "Annual Report of the Public Utilities Commission of the District of Columbia, 1914 (published 1915), House Document 1701, 63rd Congress, 3rd session",
+    "creator": null,
+    "publication_date_text": "1915",
+    "source_uri": "https://www.govinfo.gov/content/pkg/SERIALSET-06871_00_00/pdf/SERIALSET-06871_00_00.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "BR-S003": {
+    "id": "BR-S003",
+    "title": "Brightwood Railway Company, H. Rept. 55-1368",
+    "creator": null,
+    "publication_date_text": "1898-05-19",
+    "source_uri": "https://www.govinfo.gov/content/pkg/SERIALSET-03721_00_00-175-1368-0000/pdf/SERIALSET-03721_00_00-175-1368-0000.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "BR-S004": {
+    "id": "BR-S004",
+    "title": "Act requiring the Brightwood Railway Company to abandon its overhead trolley on Kenyon Street, chapter 579, 30 Stat. 719",
+    "creator": null,
+    "publication_date_text": "1898-07-07",
+    "source_uri": "https://www.govinfo.gov/content/pkg/STATUTE-30/pdf/STATUTE-30-Pg718-2.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "BR-S005": {
+    "id": "BR-S005",
+    "title": "Annual Report of the Public Utilities Commission of the District of Columbia, 1915 (published 1916)",
+    "creator": null,
+    "publication_date_text": "1916",
+    "source_uri": "https://archive.org/details/annualreportpub01colugoog/page/n32",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "BR-S006": {
+    "id": "BR-S006",
+    "title": "Fourth Annual Report of the Public Utilities Commission of the District of Columbia, 1916 (published 1917)",
+    "creator": null,
+    "publication_date_text": "1917",
+    "source_uri": "https://archive.org/details/annualreportpub02colugoog/page/n14",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "CJ1940-PUC-ORDER1958": {
+    "id": "CJ1940-PUC-ORDER1958",
+    "title": "[Bibliographic title not supplied] CJ1940-PUC-ORDER1958",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://www.govinfo.gov/content/pkg/SERIALSET-10633_00_00-002-0023-0000/pdf/SERIALSET-10633_00_00-002-0023-0000.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "CORE-FS01": {
+    "id": "CORE-FS01",
+    "title": "Twenty-first Annual Report of the Public Utilities Commission of the District of Columbia, 1933",
+    "creator": null,
+    "publication_date_text": "1934",
+    "source_uri": "https://www.govinfo.gov/content/pkg/SERIALSET-09863_00_00/pdf/SERIALSET-09863_00_00.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "CORE-S03": {
+    "id": "CORE-S03",
+    "title": "Washington, what to see, and how to see it: A sightseer’s guide",
+    "creator": null,
+    "publication_date_text": "1892",
+    "source_uri": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/washingtonwhatto06keim/washingtonwhatto06keim.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "CORE-S05": {
+    "id": "CORE-S05",
+    "title": "The Standard Guide: Washington. A Handbook for Visitors",
+    "creator": null,
+    "publication_date_text": "1902",
+    "source_uri": "https://archive.org/details/cu31924020483115",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "CORE-S06": {
+    "id": "CORE-S06",
+    "title": "Rand, McNally & Co.’s pictorial guide to Washington and environs",
+    "creator": null,
+    "publication_date_text": "1903",
+    "source_uri": "https://archive.org/details/randmcnallycospi1903rand",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "CT-1947-GUIDE-BNF": {
+    "id": "CT-1947-GUIDE-BNF",
+    "title": "Guide Map, Capital Transit Street Car and Bus Lines, Washington, July 1, 1947",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://gallica.bnf.fr/ark:/12148/btv1b531895914",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "CT-1947-OWL1942-INSET": {
+    "id": "CT-1947-OWL1942-INSET",
+    "title": "Capital Transit Routes of Owl Service, June 7, 1942 inset retained in July 1, 1947 guide",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://gallica.bnf.fr/ark:/12148/btv1b531895914",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "DC-LATE-MAP-S01": {
+    "id": "DC-LATE-MAP-S01",
+    "title": "Street Car Reroutings—Downtown District, effective November 22, 1936",
+    "creator": null,
+    "publication_date_text": "",
+    "source_uri": "https://www.dctrolley.org/history",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "DC-LATE-MAP-S03": {
+    "id": "DC-LATE-MAP-S03",
+    "title": "Capital Transit guide map, street car and bus lines, corrected to June 1, 1942",
+    "creator": null,
+    "publication_date_text": "",
+    "source_uri": "https://ddotdc.tumblr.com/post/91369268479/image-1-a-capital-transit-guide-map-dated-june-1",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "DC-RECON-NPS2005-E19": {
+    "id": "DC-RECON-NPS2005-E19",
+    "title": "DC-RECON-NPS2005-E19",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://npgallery.nps.gov/pdfhost/docs/NRHP/Text/64500948.pdf#page=19",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "DC-RECON-STAT1865-13-536": {
+    "id": "DC-RECON-STAT1865-13-536",
+    "title": "DC-RECON-STAT1865-13-536",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://www.govinfo.gov/content/pkg/STATUTE-13/pdf/STATUTE-13-Pg536.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "DC-REVIEW-STAR19180420-S01": {
+    "id": "DC-REVIEW-STAR19180420-S01",
+    "title": "DC-REVIEW-STAR19180420-S01",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://www.loc.gov/resource/sn83045462/1918-04-20/ed-1/?sp=8",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "DC-REVIEW-US191103-S01": {
+    "id": "DC-REVIEW-US191103-S01",
+    "title": "DC-REVIEW-US191103-S01",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://www.govinfo.gov/content/pkg/USREPORTS-191/pdf/USREPORTS-191-103.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "DCC-S-CT1947": {
+    "id": "DCC-S-CT1947",
+    "title": "Reviewed source DCC-S-CT1947",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://gallica.bnf.fr/ark:/12148/btv1b531895914",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "DCREC-ST-S01": {
+    "id": "DCREC-ST-S01",
+    "title": "Act of July 5, 1892, chapter 143, 27 Stat. 65",
+    "creator": null,
+    "publication_date_text": "1892-07-05",
+    "source_uri": "https://www.govinfo.gov/content/pkg/STATUTE-27/pdf/STATUTE-27-Pg65.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "DCREC-ST-S02": {
+    "id": "DCREC-ST-S02",
+    "title": "Congressional Record, Senate, January 12, 1899",
+    "creator": null,
+    "publication_date_text": "1899-01-12",
+    "source_uri": "https://www.congress.gov/55/crecb/1899/01/12/GPO-CRECB-1899-pt1-v32-21-1.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "DCREC-ST-S03": {
+    "id": "DCREC-ST-S03",
+    "title": "Congressional Record, House, February 23, 1899",
+    "creator": null,
+    "publication_date_text": "1899-02-23",
+    "source_uri": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1899-pt3-v32/pdf/GPO-CRECB-1899-pt3-v32-3.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "EAR-S02": {
+    "id": "EAR-S02",
+    "title": "Public Utilities Companies: Annual Reports for year ending December 31, 1923",
+    "creator": null,
+    "publication_date_text": "",
+    "source_uri": "https://www.govinfo.gov/content/pkg/SERIALSET-08253_00_00-028-0030-0000/pdf/SERIALSET-08253_00_00-028-0030-0000.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "EAR-S03": {
+    "id": "EAR-S03",
+    "title": "Public Utilities Companies: Annual Reports for year ending December 31, 1924",
+    "creator": null,
+    "publication_date_text": "",
+    "source_uri": "https://www.govinfo.gov/content/pkg/SERIALSET-08413_00_00-031-0200-0000/pdf/SERIALSET-08413_00_00-031-0200-0000.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "EAR-S04": {
+    "id": "EAR-S04",
+    "title": "East Washington Heights Traction Railroad Company: report for last four months of 1905, H. Doc. 59-496",
+    "creator": null,
+    "publication_date_text": "",
+    "source_uri": "https://www.govinfo.gov/content/pkg/SERIALSET-04987_00_00-107-0496-0000/pdf/SERIALSET-04987_00_00-107-0496-0000.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "EAR-S07": {
+    "id": "EAR-S07",
+    "title": "Recent Bus Developments, Electric Railway Journal, May 16, 1925",
+    "creator": null,
+    "publication_date_text": "",
+    "source_uri": "https://archive.org/download/transit-journal-1932_1925-05-16_65_20/transit-journal-1932_1925-05-16_65_20.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "EST-DDOT-PALISADES2019": {
+    "id": "EST-DDOT-PALISADES2019",
+    "title": "Palisades Trolley Trail: Historic Resource Report",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://ddot.dc.gov/sites/default/files/dc/sites/ddot/page_content/attachments/Appendix4_HistoricResourcesReport_FINAL_Reduced.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "EST-VA-ARL-AUTORAILER2023": {
+    "id": "EST-VA-ARL-AUTORAILER2023",
+    "title": "Arlington Public Library, Arlington’s Autorailer Experiment",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://library.arlingtonva.us/2023/01/24/autorailer/",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "EST-VA-BUCKINGHAM": {
+    "id": "EST-VA-BUCKINGHAM",
+    "title": "Buckingham Neighborhood Conservation Plan, electric railway history",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://buckinghamcca.org/wp-content/uploads/2010/10/nc_buckingham_plan.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "EST-VA-FAIRFAX-HD2024": {
+    "id": "EST-VA-FAIRFAX-HD2024",
+    "title": "DHR, Fairfax Historic District nomination update",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://www.dhr.virginia.gov/wp-content/uploads/2023/03/151-0003_City_of_Fairfax_HD_2024_NRHP_Update_FINAL.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "EST-VA-FAIRFAX-HERALD1904": {
+    "id": "EST-VA-FAIRFAX-HERALD1904",
+    "title": "Historic Fairfax City account citing Fairfax Herald December 2, 1904",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://www.historicfairfax.org/wp-content/uploads/2012/05/HFCI14-2003.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "EST-VA-FAIRFAX-MARKER1908": {
+    "id": "EST-VA-FAIRFAX-MARKER1908",
+    "title": "Fairfax historical marker, courthouse extension dated 1908",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://www.hmdb.org/m.asp?m=76716",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "EST-VA-FAIRFAX-MASTERPLAN": {
+    "id": "EST-VA-FAIRFAX-MASTERPLAN",
+    "title": "Fairfax County, South Railroad Street Park Master Plan",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://www.fairfaxcounty.gov/sites/parks/files/assets/documents/plandev/master-plans/srailroadstmp.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "EST-VA-FHWA-LONGBRIDGE": {
+    "id": "EST-VA-FHWA-LONGBRIDGE",
+    "title": "FHWA, DC freeway history, old Long Bridge / Highway Bridge transfer",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://highways.dot.gov/sites/fhwa.dot.gov/files/dcrevolt_part00_1.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "EST-VA-GF-INDEX1934": {
+    "id": "EST-VA-GF-INDEX1934",
+    "title": "NOVA Parks, Great Falls Division valuation sheet 3 index inset, July 1934 abandonment annotation",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://www.novaparks.com/sites/default/files/GF%26OD%20Val%20Map%203.PDF",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "EST-VA-KEYBRIDGE-CLOSURE": {
+    "id": "EST-VA-KEYBRIDGE-CLOSURE",
+    "title": "Key Bridge history citing Washington Post August 17, 1956 closure announcement",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://en.wikipedia.org/wiki/Key_Bridge_(Washington,_D.C.)",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "EST-VA-MV-PHOTO1930": {
+    "id": "EST-VA-MV-PHOTO1930",
+    "title": "Mount Vernon Library, September 1930 entrance photograph with railway removed",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://catalog.mountvernon.org/digital/collection/p16829coll30/id/1120/",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "EST-VA-NAUCK-MARKER": {
+    "id": "EST-VA-NAUCK-MARKER",
+    "title": "Nauck neighborhood historical marker, 1898 electric railway arrival",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://www.hmdb.org/m.asp?m=2504",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "EST-VA-ROSSLYN-REBUILD": {
+    "id": "EST-VA-ROSSLYN-REBUILD",
+    "title": "Northern Virginia trolleys, 1939–40 Rosslyn terminal redevelopment and source leads",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://en.wikipedia.org/wiki/Northern_Virginia_trolleys",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "EST-VA-WASHINGTONARLINGTON-EARLY": {
+    "id": "EST-VA-WASHINGTONARLINGTON-EARLY",
+    "title": "Northern Virginia trolleys, early Washington & Arlington history and source leads",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://en.wikipedia.org/wiki/Northern_Virginia_trolleys",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "EST-VA-WOD-NOMINATION": {
+    "id": "EST-VA-WOD-NOMINATION",
+    "title": "W&OD historic district nomination, electrification chronology, SCC archive",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://www.scc.virginia.gov/docketsearch/DOCS/198_01%21.PDF",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "F3-DC-1942-ITINERARY": {
+    "id": "F3-DC-1942-ITINERARY",
+    "title": "Capital Transit 1942 route guide reverse, route 20",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://ddotdc.tumblr.com/post/91369268479/image-1-a-capital-transit-guide-map-dated-june-1",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "F3-SR-S01": {
+    "id": "F3-SR-S01",
+    "title": "Street Railway Journal, WB&A single-phase railway article",
+    "creator": null,
+    "publication_date_text": "date: February 15, 1908; locators: printed page 240 / PDF page 4 printed pages 243–244 / PDF pages 7–8",
+    "source_uri": "https://libraryarchives.metro.net/dpgtl/ERJ/srj-street-railway-journal/1908-srj-volume-31-no-07-february-15.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "G7-S-1942": {
+    "id": "G7-S-1942",
+    "title": "Reviewed source G7-S-1942",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://ddotdc.tumblr.com/post/91369268479/image-1-a-capital-transit-guide-map-dated-june-1",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "G7-S-1947": {
+    "id": "G7-S-1947",
+    "title": "Reviewed source G7-S-1947",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://gallica.bnf.fr/ark:/12148/btv1b531895914",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "G7-S-1955-INHERITED": {
+    "id": "G7-S-1955-INHERITED",
+    "title": "Reviewed source G7-S-1955-INHERITED",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt6/pdf/GPO-CRECB-1960-pt6-8-1.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "GAP-CONV-S03": {
+    "id": "GAP-CONV-S03",
+    "title": "Twenty-fifth annual report of the Public Utilities Commission, year ended December 31, 1937, Appendix A digest",
+    "creator": null,
+    "publication_date_text": "",
+    "source_uri": "https://www.govinfo.gov/content/pkg/SERIALSET-10215_00_00-002-0393-0000/pdf/SERIALSET-10215_00_00-002-0393-0000.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "GAP-CONV-S07": {
+    "id": "GAP-CONV-S07",
+    "title": "Washington DC Transit Routes, Chicago Transit & Railfan",
+    "creator": null,
+    "publication_date_text": "",
+    "source_uri": "https://www.chicagorailfan.com/bcwasrtd.html",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "GAP-CONV-S08": {
+    "id": "GAP-CONV-S08",
+    "title": "Streetcar and Bus Resources of Washington DC,1862–1962, National Register multiple-property documentation",
+    "creator": null,
+    "publication_date_text": "",
+    "source_uri": "https://npgallery.nps.gov/pdfhost/docs/NRHP/Text/64500948.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "GAP-DC-MERCHANTS1887": {
+    "id": "GAP-DC-MERCHANTS1887",
+    "title": "Leading merchants and manufacturers of the city of Washington. A resumé of trade, enterprise, and development",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://www.loc.gov/resource/gdcmassbookdig.leadingmerchants01inte/?sp=38",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "GAP-DC-OGDEN1876": {
+    "id": "GAP-DC-OGDEN1876",
+    "title": "Washington City and how to see it, a complete pocket guide to all places of interest in the national capital and vicinity",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://www.loc.gov/resource/gdcmassbookdig.washingtoncityho00ogde/?sp=66",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "GAP-SRC-ALEX1895": {
+    "id": "GAP-SRC-ALEX1895",
+    "title": "Matawan Journal, Mount Vernon",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://www.digifind-it.com/matawan/data/newspapers/journal/1895/1895-02-16.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "GAP-SRC-ALEX2021": {
+    "id": "GAP-SRC-ALEX2021",
+    "title": "City of Alexandria, Wayfinding: Electric Railway",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://www.alexandriava.gov/historic-sites/basic-page/wayfinding-electric-railway",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "GAP-SRC-DINKY2000": {
+    "id": "GAP-SRC-DINKY2000",
+    "title": "Garman and Hodes, Dinky Line Tour",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://historictakoma.org/wp-content/uploads/2021/01/Dinky-Line-Tour-Script.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "GAP-SRC-ELLENBERGER1974": {
+    "id": "GAP-SRC-ELLENBERGER1974",
+    "title": "Ellenberger, History of the Street Car Lines of Montgomery County",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://montgomeryhistory.org/wp-content/uploads/2016/09/Vol17No2_MCStory.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "GAP-SRC-PEERLESS2002": {
+    "id": "GAP-SRC-PEERLESS2002",
+    "title": "Peerless Rockville, The Trolley Era in Rockville 1900–1935",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://peerlessrockville.org/historic-rockville/rockvilles-past/the-trolley-era-in-rockville-1900-1935/",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "GAP-SRC-PSC1917": {
+    "id": "GAP-SRC-PSC1917",
+    "title": "Maryland Public Service Commission, Case 1290",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://archive.org/details/reportpublicser03marygoog",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "GAP-SRC-RAND1916": {
+    "id": "GAP-SRC-RAND1916",
+    "title": "Rand McNally Washington guide to the city and environs",
+    "creator": null,
+    "publication_date_text": "1916",
+    "source_uri": "https://archive.org/details/randmcnallywashi00newyor",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "GAP-SRC-SRJ1908": {
+    "id": "GAP-SRC-SRJ1908",
+    "title": "The Washington, Baltimore & Annapolis Single-Phase Railway, Street Railway Journal",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://libraryarchives.metro.net/dpgtl/ERJ/srj-street-railway-journal/1908-srj-volume-31-no-07-february-15.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "GAR1892-LOC": {
+    "id": "GAR1892-LOC",
+    "title": "GAR1892-LOC",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://www.loc.gov/resource/gdcmassbookdig.garguidetowashin00balt/?sp=73",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "GDR-SRC-PUC1935": {
+    "id": "GDR-SRC-PUC1935",
+    "title": "Twenty-third Annual Report of Public Utilities Commission of the District of Columbia, 1935",
+    "creator": null,
+    "publication_date_text": "1936",
+    "source_uri": "https://www.govinfo.gov/content/pkg/SERIALSET-10058_00_00-002-0401-0000/pdf/SERIALSET-10058_00_00-002-0401-0000.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "INF-SRC-MD-KHS-HOWARD": {
+    "id": "INF-SRC-MD-KHS-HOWARD",
+    "title": "Kensington Historical Society, Howard Avenue Park",
+    "creator": null,
+    "publication_date_text": "",
+    "source_uri": "https://www.kensingtonhistory.org/khs-location/howard-avenue-park/",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "INF-SRC-MD-NPS-STREETCAR": {
+    "id": "INF-SRC-MD-NPS-STREETCAR",
+    "title": "NPS Streetcar and Bus Resources of Washington, DC",
+    "creator": null,
+    "publication_date_text": "",
+    "source_uri": "https://npgallery.nps.gov/pdfhost/docs/NRHP/Text/64500948.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "INF-SRC-MD-TAKOMA-MINUTES1918": {
+    "id": "INF-SRC-MD-TAKOMA-MINUTES1918",
+    "title": "Takoma Park council minutes, January–April 1918",
+    "creator": null,
+    "publication_date_text": "",
+    "source_uri": "https://documents.takomaparkmd.gov/government/city-council/archival-minutes/1900s/council-archive-minutes-1918-01.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "INF-SRC-MD-TOWNSEND1963": {
+    "id": "INF-SRC-MD-TOWNSEND1963",
+    "title": "Wilson L. Townsend, Knowles Station and the Town of Kensington",
+    "creator": null,
+    "publication_date_text": "",
+    "source_uri": "https://montgomeryhistory.org/wp-content/uploads/2016/09/Vol7No1_MCStory.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "INF-SRC-MD-WSSG-CHARTER": {
+    "id": "INF-SRC-MD-WSSG-CHARTER",
+    "title": "Berwyn Heights Historical Committee, Washington Spa Spring & Gretta Rail Road",
+    "creator": null,
+    "publication_date_text": "",
+    "source_uri": "https://berwynheightshistory.com/tag/washington-spa-spring-gretta-rail-road/",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "KEIM1876-LOC": {
+    "id": "KEIM1876-LOC",
+    "title": "Keim’s Illustrated Hand-Book: Washington and Its Environs",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://www.loc.gov/item/06042612/",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "LATE-CONV-S01": {
+    "id": "LATE-CONV-S01",
+    "title": "Twenty-third annual report of the Public Utilities Commission, year ended December 31, 1935",
+    "creator": null,
+    "publication_date_text": "GPO / U.S. Congressional Serial Set",
+    "source_uri": "https://www.govinfo.gov/content/pkg/SERIALSET-10058_00_00-002-0401-0000/pdf/SERIALSET-10058_00_00-002-0401-0000.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "LATE-CONV-S03": {
+    "id": "LATE-CONV-S03",
+    "title": "Twenty-fifth annual report of the Public Utilities Commission, year ended December 31, 1937",
+    "creator": null,
+    "publication_date_text": "GPO / U.S. Congressional Serial Set",
+    "source_uri": "https://www.govinfo.gov/content/pkg/SERIALSET-10215_00_00-002-0393-0000/pdf/SERIALSET-10215_00_00-002-0393-0000.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "LATE-CONV-S04": {
+    "id": "LATE-CONV-S04",
+    "title": "Congressional Record: Streetcar Conversion, Wayne Morse remarks and reproduced PUC correspondence",
+    "creator": null,
+    "publication_date_text": "Congressional Record, Senate, April 8, 1960",
+    "source_uri": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt6/pdf/GPO-CRECB-1960-pt6-8-1.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "LATE-CONV-S05": {
+    "id": "LATE-CONV-S05",
+    "title": "Sam Eastman, D. C. Streetcars End Runs on Three Lines",
+    "creator": null,
+    "publication_date_text": "1960-01-03",
+    "source_uri": "https://www.loc.gov/resource/sn83045462/1960-01-03/ed-1/?sp=1&st=text",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "LATE-CONV-S07": {
+    "id": "LATE-CONV-S07",
+    "title": "The Greater Fourteenth Street Historic District National Register nomination",
+    "creator": null,
+    "publication_date_text": "1994-03-08",
+    "source_uri": "https://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Fourteenth%20Street%20HD%20nom.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "LATE-CONV-S08": {
+    "id": "LATE-CONV-S08",
+    "title": "DC Transit System 1101 collection history",
+    "creator": null,
+    "publication_date_text": "live museum collection page, publication date unstated",
+    "source_uri": "https://www.dctrolley.org/dccollection/1101",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "LATE-PH-S01": {
+    "id": "LATE-PH-S01",
+    "title": "Twenty-eighth Annual Report of the Public Utilities Commission of the District of Columbia",
+    "creator": null,
+    "publication_date_text": "1941",
+    "source_uri": "https://www.govinfo.gov/content/pkg/SERIALSET-10633_00_00-002-0023-0000/pdf/SERIALSET-10633_00_00-002-0023-0000.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "LATE-PH-S02": {
+    "id": "LATE-PH-S02",
+    "title": "Twenty-fifth Annual Report of the Public Utilities Commission of the District of Columbia",
+    "creator": null,
+    "publication_date_text": "1938",
+    "source_uri": "https://www.govinfo.gov/content/pkg/SERIALSET-10215_00_00-002-0393-0000/pdf/SERIALSET-10215_00_00-002-0393-0000.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "LATE-PH-S04": {
+    "id": "LATE-PH-S04",
+    "title": "BEP Tour Bridge Modernization Project, submission materials",
+    "creator": null,
+    "publication_date_text": "2015-11",
+    "source_uri": "https://www.ncpc.gov/files/projects/2015/Tour_Bridge_Modernization_Project_Submission_Materials_7004_Nov 2015.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "LATE-PH-S08": {
+    "id": "LATE-PH-S08",
+    "title": "Streetcar and Bus Resources of Washington, D.C., 1862–1962",
+    "creator": null,
+    "publication_date_text": "2006",
+    "source_uri": "https://npgallery.nps.gov/pdfhost/docs/NRHP/Text/64500948.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "LATE-PH-S11": {
+    "id": "LATE-PH-S11",
+    "title": "Twenty-third Annual Report of the Public Utilities Commission, year ended December 31,1935",
+    "creator": null,
+    "publication_date_text": "1936",
+    "source_uri": "https://www.govinfo.gov/content/pkg/SERIALSET-10058_00_00-002-0401-0000/pdf/SERIALSET-10058_00_00-002-0401-0000.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "LATE-PH-S12": {
+    "id": "LATE-PH-S12",
+    "title": "D.C. Freeway Revolt and the Coming of Metro, Part 3, The Citizens’ Revolt",
+    "creator": null,
+    "publication_date_text": "FHWA online historical study, retrieved2026-10-04; exact publication date not verified",
+    "source_uri": "https://www.fhwa.dot.gov/highwayhistory/dcrevolt/part03.pdf#page=239",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "LOOP-S06": {
+    "id": "LOOP-S06",
+    "title": "D.C. Transit 1053, Special, Bureau of Engraving Tunnel, January 27 1962",
+    "creator": null,
+    "publication_date_text": "",
+    "source_uri": "https://nrhs.com/gallery-item/dc-transit-washington-d-c-pcc-streetcar-1053-special-bureau-of-engraving-tunnel-january-27-1962-last-day-al-holtz-photograph-collection/",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "LOOP-S07": {
+    "id": "LOOP-S07",
+    "title": "Streetcar and Bus Resources of Washington DC 1862–1962",
+    "creator": null,
+    "publication_date_text": "",
+    "source_uri": "https://npgallery.nps.gov/pdfhost/docs/NRHP/Text/64500948.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "MD-AUD-CT1942": {
+    "id": "MD-AUD-CT1942",
+    "title": "Capital Transit guide map, street car and bus lines, corrected to June 1, 1942",
+    "creator": null,
+    "publication_date_text": "map_correction_date: 1942-06-01; publication_date: ; reprint_date: ; ddot_web_post: 2014-07-10",
+    "source_uri": "https://ddotdc.tumblr.com/post/91369268479/image-1-a-capital-transit-guide-map-dated-june-1",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "MD-EAST-S05": {
+    "id": "MD-EAST-S05",
+    "title": "The Washington, Baltimore & Annapolis Single-Phase Railway, Street Railway Journal February 15, 1908",
+    "creator": null,
+    "publication_date_text": "1908-02-15",
+    "source_uri": "https://libraryarchives.metro.net/dpgtl/ERJ/srj-street-railway-journal/1908-srj-volume-31-no-07-february-15.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "MD-EAST-S18": {
+    "id": "MD-EAST-S18",
+    "title": "Streetcar and Bus Resources of Washington, D.C., 1862–1962, NPS 125-page edition",
+    "creator": null,
+    "publication_date_text": "2005-06",
+    "source_uri": "https://npgallery.nps.gov/pdfhost/docs/NRHP/Text/64500948.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "MD-EAST-S19": {
+    "id": "MD-EAST-S19",
+    "title": "Berwyn Heights Historical Committee: WSSG and BHA lobbies PSC",
+    "creator": null,
+    "publication_date_text": "2016-01-17",
+    "source_uri": "https://berwynheightshistory.com/tag/washington-spa-spring-gretta-rail-road/",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "MD-EAST-S20": {
+    "id": "MD-EAST-S20",
+    "title": "National Capital Trolley Museum: Final Day of Operation, WB&A",
+    "creator": null,
+    "publication_date_text": "2020-08-20",
+    "source_uri": "https://trolleytime.blogspot.com/2020/08/artifact-showcase-final-day-of.html",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "MD-EAST-S23": {
+    "id": "MD-EAST-S23",
+    "title": "Laurel Historical Society, History of Laurel",
+    "creator": null,
+    "publication_date_text": "",
+    "source_uri": "https://www.laurelhistoricalsociety.org/history-of-laurel.html",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "MD-EAST-S31": {
+    "id": "MD-EAST-S31",
+    "title": "Edmonston Historical Survey, July 1993",
+    "creator": null,
+    "publication_date_text": "1993-07",
+    "source_uri": "https://www.mncppcapps.org/planning/publications/PDFs/70/Edmonston%20Historical%20Survey%20July%201993.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "MD-EAST-S32": {
+    "id": "MD-EAST-S32",
+    "title": "History of the trolley trail, Streetcar Suburbs Publishing",
+    "creator": null,
+    "publication_date_text": "2022",
+    "source_uri": "https://streetcarsuburbs.news/history-of-the-trolley-trail/",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "MD-MONT-S01": {
+    "id": "MD-MONT-S01",
+    "title": "William J. Ellenberger, History of the Street Car Lines of Montgomery County",
+    "creator": null,
+    "publication_date_text": "The Montgomery County Story 17(2), May 1974; 10-page PDF",
+    "source_uri": "https://montgomeryhistory.org/wp-content/uploads/2016/09/Vol17No2_MCStory.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "MD-MONT-S02": {
+    "id": "MD-MONT-S02",
+    "title": "Streetcar and Bus Resources of Washington, D.C., 1862–1962",
+    "creator": null,
+    "publication_date_text": "NPS-hosted 125-page edition; same work as inherited S006, not independent corroboration",
+    "source_uri": "https://npgallery.nps.gov/pdfhost/docs/NRHP/Text/64500948.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "MD-MONT-S04": {
+    "id": "MD-MONT-S04",
+    "title": "Report of the Public Service Commission of Maryland for 1917",
+    "creator": null,
+    "publication_date_text": "1917 report; Internet Archive Google scan reportpublicser03marygoog",
+    "source_uri": "https://archive.org/details/reportpublicser03marygoog",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "MD-MONT-S07": {
+    "id": "MD-MONT-S07",
+    "title": "Electric Railway Section, Commercial and Financial Chronicle, 29 February 1908",
+    "creator": null,
+    "publication_date_text": "Vol 86 no 2227, 29 February 1908",
+    "source_uri": "https://fraser.stlouisfed.org/files/docs/publications/cfc/cfc_19080229_supplement.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "MDW-S11": {
+    "id": "MDW-S11",
+    "title": "Rand Mc Nally Washington Guide to the City and Environs",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": null,
+    "url_review_status": "not_supplied"
+  },
+  "MDW-S12": {
+    "id": "MDW-S12",
+    "title": "Greeters’ Guide to Washington, 1922",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": null,
+    "url_review_status": "not_supplied"
+  },
+  "MDW-S14": {
+    "id": "MDW-S14",
+    "title": "Report of the Public Service Commission of Maryland for 1917, Case 1290",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": null,
+    "url_review_status": "not_supplied"
+  },
+  "MDW-S16": {
+    "id": "MDW-S16",
+    "title": "Dinky Line Tour",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": null,
+    "url_review_status": "not_supplied"
+  },
+  "NOVA-QA-HIST-ARL-LIBRARY2023": {
+    "id": "NOVA-QA-HIST-ARL-LIBRARY2023",
+    "title": "Arlington Public Library: Arlington’s Autorailer Experiment",
+    "creator": null,
+    "publication_date_text": "",
+    "source_uri": "https://library.arlingtonva.us/2023/01/24/autorailer/",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "RFG-S-BETHESDAPARK1991": {
+    "id": "RFG-S-BETHESDAPARK1991",
+    "title": "William G. Allman, Bethesda Park: The Handsomest Park in the United States",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://montgomeryhistory.org/wp-content/uploads/2016/09/Vol34No3_MCStory.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "RFG-S-DCPU1914-O89": {
+    "id": "RFG-S-DCPU1914-O89",
+    "title": "DC Public Utilities Commission Annual Report 1914, Order 89",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://www.govinfo.gov/content/pkg/SERIALSET-06871_00_00/pdf/SERIALSET-06871_00_00.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "RFG-S-SENTINEL19000413": {
+    "id": "RFG-S-SENTINEL19000413",
+    "title": "Montgomery County Sentinel, April 13, 1900",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://www.loc.gov/resource/sn83016209/1900-04-13/ed-1/?sp=3",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "RFG-S-SENTINEL19051215": {
+    "id": "RFG-S-SENTINEL19051215",
+    "title": "Montgomery County Sentinel, December 15, 1905",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://www.loc.gov/resource/sn83016209/1905-12-15/ed-1/?sp=3",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "RFG-S-SENTINEL19080410": {
+    "id": "RFG-S-SENTINEL19080410",
+    "title": "Montgomery County Sentinel, April 10, 1908",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://www.loc.gov/resource/sn83016209/1908-04-10/ed-1/?sp=3",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "RFG-S-SENTINEL19080619": {
+    "id": "RFG-S-SENTINEL19080619",
+    "title": "Montgomery County Sentinel, June 19, 1908",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://www.loc.gov/resource/sn83016209/1908-06-19/ed-1/?sp=3",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "RFG-S-STAR19130801-AD": {
+    "id": "RFG-S-STAR19130801-AD",
+    "title": "Evening Star, August 1, 1913, property advertisement",
+    "creator": null,
+    "publication_date_text": "1913-08-01",
+    "source_uri": "https://www.loc.gov/resource/sn83045462/1913-08-01/ed-1/?sp=17",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "RFG-S-STAR19131012-AD": {
+    "id": "RFG-S-STAR19131012-AD",
+    "title": "Sunday Star, October 12, 1913, Bradley Hills advertisement",
+    "creator": null,
+    "publication_date_text": "1913-10-12",
+    "source_uri": "https://www.loc.gov/resource/sn83045462/1913-10-12/ed-1/?sp=9",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "RFG-S-STAR19210225": {
+    "id": "RFG-S-STAR19210225",
+    "title": "Evening Star, February 25, 1921",
+    "creator": null,
+    "publication_date_text": "1921-02-25",
+    "source_uri": "https://www.loc.gov/resource/sn83045462/1921-02-25/ed-1/?sp=17",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "RFG-S-TIMES19130911-AD": {
+    "id": "RFG-S-TIMES19130911-AD",
+    "title": "Washington Times, September 11, 1913, Bradley Hills advertisement",
+    "creator": null,
+    "publication_date_text": "1913-09-11",
+    "source_uri": "https://www.loc.gov/resource/sn84026749/1913-09-11/ed-1/?sp=3",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "STAR19180420-P8": {
+    "id": "STAR19180420-P8",
+    "title": "STAR19180420-P8",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://www.loc.gov/resource/sn83045462/1918-04-20/ed-1/?sp=8",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "TERM-FINAL-FAIRFAX-HISTORY2003": {
+    "id": "TERM-FINAL-FAIRFAX-HISTORY2003",
+    "title": "The Fairfax Electric Depot & Mill Managers House, The Fair Facs Gazette, Volume 1 Issue 4",
+    "creator": null,
+    "publication_date_text": "Fall 2003",
+    "source_uri": "https://www.historicfairfax.org/wp-content/uploads/2012/05/HFCI14-2003.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "TERM-FINAL-FAIRFAX-SURVEY2004": {
+    "id": "TERM-FINAL-FAIRFAX-SURVEY2004",
+    "title": "Historic Property Survey Update, City of Fairfax, Virginia",
+    "creator": null,
+    "publication_date_text": "2004 report; historical photographs assigned circa 1904 and 1927 by its captions, not independently verified original exposure dates.",
+    "source_uri": "https://www.dhr.virginia.gov/pdf_files/SpecialCollections/FX-404_Historic_Properties_Survey_City_Fairfax_2004_Traceries_report.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA-AG-TT19100501": {
+    "id": "VA-AG-TT19100501",
+    "title": "VA-AG-TT19100501",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://tile.loc.gov/storage-services/service/ndnp/vi/batch_vi_hilfiger_ver01/data/sn85025007/00415663973/1910101101/0332.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA-AM-S01": {
+    "id": "VA-AM-S01",
+    "title": "The Electric Railway, Alexandria Gazette and Virginia Advertiser",
+    "creator": null,
+    "publication_date_text": "1892-09-19",
+    "source_uri": "https://www.loc.gov/item/sn85025007/1892-09-19/ed-1/",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA-AM-S02": {
+    "id": "VA-AM-S02",
+    "title": "The Longest Road; Washington, Alexandria and Mount Vernon Line; and To Arlington advertisement, Evening Star",
+    "creator": null,
+    "publication_date_text": "1896-06-05",
+    "source_uri": "https://www.loc.gov/item/sn83045462/1896-06-05/ed-1/",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA-AM-S03": {
+    "id": "VA-AM-S03",
+    "title": "Mt. Vernon Park Opened, Evening Star",
+    "creator": null,
+    "publication_date_text": "1896-06-08",
+    "source_uri": "https://www.loc.gov/item/sn83045462/1896-06-08/ed-1/",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA-AM-S04": {
+    "id": "VA-AM-S04",
+    "title": "Map of Alexandria County, Virginia for the Virginia Title Co., prepared by Howell & Taylor",
+    "creator": null,
+    "publication_date_text": "1900",
+    "source_uri": "https://www.loc.gov/item/89692758/",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA-AM-S05": {
+    "id": "VA-AM-S05",
+    "title": "W. H. Snowden, Some Old Historic Landmarks of Virginia and Maryland: A Hand-book for the Tourist over the Washington, Alexandria and Mount Vernon Electric Railway",
+    "creator": null,
+    "publication_date_text": "1902",
+    "source_uri": "https://archive.org/details/someoldhistoric00snowgoog",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA-AM-S07": {
+    "id": "VA-AM-S07",
+    "title": "Cut Off Rosslyn, Alexandria Gazette",
+    "creator": null,
+    "publication_date_text": "1921-05-05",
+    "source_uri": "https://www.loc.gov/item/sn85025007/1921-05-05/ed-1/",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA-AM-S08": {
+    "id": "VA-AM-S08",
+    "title": "Wayfinding: Electric Railway, City of Alexandria",
+    "creator": null,
+    "publication_date_text": "2021-12-29",
+    "source_uri": "https://www.alexandriava.gov/historic-sites/basic-page/wayfinding-electric-railway",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA-FA-S01": {
+    "id": "VA-FA-S01",
+    "title": "Commercial and Financial Chronicle, Street Railway Supplement, February 25, 1899",
+    "creator": null,
+    "publication_date_text": "1899-02-25",
+    "source_uri": "https://fraser.stlouisfed.org/files/docs/publications/cfc/cfc_18990225_supplement.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA-FA-S02": {
+    "id": "VA-FA-S02",
+    "title": "Map of Alexandria County, Virginia for the Virginia Title Co.",
+    "creator": null,
+    "publication_date_text": "1900",
+    "source_uri": "https://www.loc.gov/item/89692758/",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA-FA-S03": {
+    "id": "VA-FA-S03",
+    "title": "Commercial and Financial Chronicle, Street Railway Supplement, October 15, 1904",
+    "creator": null,
+    "publication_date_text": "1904-10-15",
+    "source_uri": "https://fraser.stlouisfed.org/files/docs/publications/cfc/cfc_19041015_supplement.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA-FA-S04": {
+    "id": "VA-FA-S04",
+    "title": "Industrial and Historical Sketch of Fairfax County, Virginia",
+    "creator": null,
+    "publication_date_text": "1907",
+    "source_uri": "https://www.loc.gov/item/07038074/",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA-FA-S05": {
+    "id": "VA-FA-S05",
+    "title": "Map of Alexandria County, Virginia: formerly part of the District of Columbia",
+    "creator": null,
+    "publication_date_text": "1907",
+    "source_uri": "https://www.loc.gov/item/89692766/",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA-FA-S06": {
+    "id": "VA-FA-S06",
+    "title": "Commercial and Financial Chronicle, Street Railway Section, June 30, 1906",
+    "creator": null,
+    "publication_date_text": "1906-06-30",
+    "source_uri": "https://fraser.stlouisfed.org/files/docs/publications/cfc/cfc_19060630_supplement.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA-FA-S07": {
+    "id": "VA-FA-S07",
+    "title": "Commercial and Financial Chronicle, Electric Railway Section, October 1, 1910",
+    "creator": null,
+    "publication_date_text": "1910-10-01",
+    "source_uri": "https://fraser.stlouisfed.org/files/docs/publications/cfc/cfc_19101001_supplement.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA-FA-S08": {
+    "id": "VA-FA-S08",
+    "title": "Twenty-first Annual Report of the Public Utilities Commission of the District of Columbia (year 1933)",
+    "creator": null,
+    "publication_date_text": "1934",
+    "source_uri": "https://www.govinfo.gov/content/pkg/SERIALSET-09863_00_00/pdf/SERIALSET-09863_00_00.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA-FA-S09": {
+    "id": "VA-FA-S09",
+    "title": "United States ex rel. Arlington & F. Auto R. Co. v. Elgen, 98 F.2d 264 (D.C.Cir.1938)",
+    "creator": null,
+    "publication_date_text": "1938-05-02",
+    "source_uri": "https://law.counselstack.com/opinion/united-states-ex-rel-arlington-f-auto-r-v-elgen-cadc-1938",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA-FA-S11": {
+    "id": "VA-FA-S11",
+    "title": "Last-Minute Stay Denied Virginia Auto-Railroad",
+    "creator": null,
+    "publication_date_text": "1939-09-09",
+    "source_uri": "https://www.loc.gov/resource/sn83045462/1939-09-09/ed-1/?sp=2",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA-FA-S12": {
+    "id": "VA-FA-S12",
+    "title": "VA-FA-S12",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://arlhist.org/wp-content/uploads/2020/02/1984-6-Railways.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA-GF-S02": {
+    "id": "VA-GF-S02",
+    "title": "W&OD Great Falls Division right-of-way and track map, NOVA sheet 4",
+    "creator": null,
+    "publication_date_text": "1916-07-01",
+    "source_uri": "https://www.novaparks.com/sites/default/files/GF%26OD%20Val%20Map%204.PDF",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA-GF-S03": {
+    "id": "VA-GF-S03",
+    "title": "W&OD Great Falls Division right-of-way and track map, NOVA sheet 5",
+    "creator": null,
+    "publication_date_text": "1916-07-01",
+    "source_uri": "https://www.novaparks.com/sites/default/files/GF%26OD%20Val%20Map%205.PDF",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA-GF-S04": {
+    "id": "VA-GF-S04",
+    "title": "W&OD Great Falls Division right-of-way and track map, NOVA sheet 6",
+    "creator": null,
+    "publication_date_text": "1916-07-01",
+    "source_uri": "https://www.novaparks.com/sites/default/files/GF%26OD%20Val%20Map%206.PDF",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA-GF-S05": {
+    "id": "VA-GF-S05",
+    "title": "W&OD Great Falls Division right-of-way and track map, NOVA sheet 7",
+    "creator": null,
+    "publication_date_text": "1916-07-01",
+    "source_uri": "https://www.novaparks.com/sites/default/files/GF%26OD%20Val%20Map%207.PDF",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA-GF-S06": {
+    "id": "VA-GF-S06",
+    "title": "W&OD Great Falls Division right-of-way and track map, NOVA sheet 8",
+    "creator": null,
+    "publication_date_text": "1916-07-01",
+    "source_uri": "https://www.novaparks.com/sites/default/files/GF%26OD%20Val%20Map%208.PDF",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA-GF-S07": {
+    "id": "VA-GF-S07",
+    "title": "Industrial and Historical Sketch of Fairfax County, Virginia",
+    "creator": null,
+    "publication_date_text": "1907",
+    "source_uri": "https://archive.org/download/industrialhistor00fair/industrialhistor00fair.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA-GF-S08": {
+    "id": "VA-GF-S08",
+    "title": "Annual Report of the Chief of Engineers, 1924, extract: Aqueduct and Francis Scott Key Bridges",
+    "creator": null,
+    "publication_date_text": "Report year 1924; extract imprint Washington, GPO1925; J. A. O’Connor in charge",
+    "source_uri": null,
+    "url_review_status": "incomplete_url_omitted"
+  },
+  "VA-GF-S09": {
+    "id": "VA-GF-S09",
+    "title": "Public Utilities Companies: Annual Reports for Year Ending December 31, 1923",
+    "creator": null,
+    "publication_date_text": "68 th Congress, 1 st Session, Senate Document 30; Washington, GPO1924",
+    "source_uri": "https://www.govinfo.gov/content/pkg/SERIALSET-08253_00_00-028-0030-0000/pdf/SERIALSET-08253_00_00-028-0030-0000.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA-NOVA-SANBORN1936-ROSSLYN-09": {
+    "id": "VA-NOVA-SANBORN1936-ROSSLYN-09",
+    "title": "Sanborn Fire Insurance Map from Arlington County, Arlington County, Virginia.",
+    "creator": null,
+    "publication_date_text": "1936",
+    "source_uri": "https://www.loc.gov/item/sanborn08973_001/",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA-ONTOLOGY-RV-165": {
+    "id": "VA-ONTOLOGY-RV-165",
+    "title": "VA-ONTOLOGY-RV-165",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": null,
+    "url_review_status": "unverified_token_url_withheld"
+  },
+  "VA-ONTOLOGY-RV-166": {
+    "id": "VA-ONTOLOGY-RV-166",
+    "title": "VA-ONTOLOGY-RV-166",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": null,
+    "url_review_status": "unverified_token_url_withheld"
+  },
+  "VA-ONTOLOGY-RV-167": {
+    "id": "VA-ONTOLOGY-RV-167",
+    "title": "VA-ONTOLOGY-RV-167",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": null,
+    "url_review_status": "unverified_token_url_withheld"
+  },
+  "VA-PURCELLVILLE-NRHP2009": {
+    "id": "VA-PURCELLVILLE-NRHP2009",
+    "title": "VA-PURCELLVILLE-NRHP2009",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://www.dhr.virginia.gov/VLR_to_transfer/PDFNoms/286-5001-0233_Purcellville_Train_Depot_2009_FINAL_Nomination.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA-RAND-TT19000501": {
+    "id": "VA-RAND-TT19000501",
+    "title": "VA-RAND-TT19000501",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://archive.org/details/randmcnallycospi03chic/page/n226/mode/1up",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA-REVIEW-ES1922-LOOP": {
+    "id": "VA-REVIEW-ES1922-LOOP",
+    "title": "Evening Star, October11,1922, p.1, terminal-loop permit report, reproduced in Canal Trade1922, p.22",
+    "creator": null,
+    "publication_date_text": "",
+    "source_uri": "https://candocanal.org/histdocs/Newspapers-1922.pdf#page=22",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA-WOD-OG193707": {
+    "id": "VA-WOD-OG193707",
+    "title": "VA-WOD-OG193707",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": null,
+    "url_review_status": "unverified_token_url_withheld"
+  },
+  "VA-WOD-TT19440131": {
+    "id": "VA-WOD-TT19440131",
+    "title": "VA-WOD-TT19440131",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://www.geocities.ws/pem20165/documentwodtt1944.html",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA2-HOWELL1900": {
+    "id": "VA2-HOWELL1900",
+    "title": "Howell1900 Washington map",
+    "creator": null,
+    "publication_date_text": "",
+    "source_uri": "https://www.loc.gov/item/89692758/",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA2-SANBORN-ARL1936": {
+    "id": "VA2-SANBORN-ARL1936",
+    "title": "Insurance maps of Arlington County, Virginia, 1936",
+    "creator": null,
+    "publication_date_text": "",
+    "source_uri": "https://www.loc.gov/item/sanborn08973_001/",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA4-S01": {
+    "id": "VA4-S01",
+    "title": "Arlington & Fairfax Uses Passenger Auto-Railers",
+    "creator": null,
+    "publication_date_text": "1936-12-26",
+    "source_uri": "https://archive.org/details/sim_railway-age_1936-12-26_101_26",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VA4-S02": {
+    "id": "VA4-S02",
+    "title": "Twenty-fifth Annual Report of the Public Utilities Commission of the District of Columbia, 1937",
+    "creator": null,
+    "publication_date_text": "1938",
+    "source_uri": "https://www.govinfo.gov/content/pkg/SERIALSET-10215_00_00-002-0393-0000/pdf/SERIALSET-10215_00_00-002-0393-0000.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VAM-S019": {
+    "id": "VAM-S019",
+    "title": "Industrial and Historical Sketch of Fairfax County, Virginia",
+    "creator": null,
+    "publication_date_text": "",
+    "source_uri": "https://archive.org/download/industrialhistor00fair/industrialhistor00fair.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "VAPHY-LEADS": {
+    "id": "VAPHY-LEADS",
+    "title": "Northern Virginia trolleys, secondary source-discovery index",
+    "creator": null,
+    "publication_date_text": "",
+    "source_uri": "https://en.wikipedia.org/wiki/Northern_Virginia_trolleys",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "WB-S01": {
+    "id": "WB-S01",
+    "title": "Streetcar and Bus Resources of Washington, D.C., 1862–1962 (E.H.T. Traceries, June 2005)",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://npgallery.nps.gov/pdfhost/docs/NRHP/Text/64500948.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "WB-S03": {
+    "id": "WB-S03",
+    "title": "Pyles House, 4608 North Park Avenue, designation report, Montgomery Planning (2022)",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://montgomeryplanning.org/wp-content/uploads/2022/06/Designation-Report_4608-North-Park-Avenue.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "WB-S04": {
+    "id": "WB-S04",
+    "title": "William G. Allman, Bethesda Park: The Handsomest Park in the United States, Montgomery County Story 34:3 (August 1991)",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://montgomeryhistory.org/wp-content/uploads/2016/09/Vol34No3_MCStory.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "WOD-ALEX-BLUEMONT-2008": {
+    "id": "WOD-ALEX-BLUEMONT-2008",
+    "title": "City of Alexandria, The Bluemont Line interpretive sign",
+    "creator": null,
+    "publication_date_text": "",
+    "source_uri": "https://media.alexandriava.gov/docs-archives/oha/info/trailsigndelraybluemontline.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "WOD-CFC-19160129": {
+    "id": "WOD-CFC-19160129",
+    "title": "Commercial and Financial Chronicle, Electric Railway Section, Washington & Old Dominion Railway",
+    "creator": null,
+    "publication_date_text": "",
+    "source_uri": "https://fraser.stlouisfed.org/files/docs/publications/cfc/cfc_19160129_supplement.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "WOD-ERJ-19130322": {
+    "id": "WOD-ERJ-19130322",
+    "title": "W. N. Smith, The Washington & Old Dominion Railway, Electric Railway Journal",
+    "creator": null,
+    "publication_date_text": "",
+    "source_uri": "https://libraryarchives.metro.net/DPGTL/ERJ/erj-electric-railway-journal/1913-erj-volume-41-no-12-march-22.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "date-source-031fe0cafd206d56": {
+    "id": "date-source-031fe0cafd206d56",
+    "title": "Richard F. Weingroff, The D.C. Freeway Revolt and the Coming of Metro",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://highways.dot.gov/sites/fhwa.dot.gov/files/dcrevolt_part00_1.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "date-source-2125ee68a847ca36": {
+    "id": "date-source-2125ee68a847ca36",
+    "title": "Commercial and Financial Chronicle, Street Railway Supplement, October 15, 1904",
+    "creator": null,
+    "publication_date_text": "1904-10-15",
+    "source_uri": "https://fraser.stlouisfed.org/files/docs/publications/cfc/cfc_19041015_supplement.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "date-source-274a913a820b21a0": {
+    "id": "date-source-274a913a820b21a0",
+    "title": "W. N. Smith, The Washington & Old Dominion Railway, Electric Railway Journal",
+    "creator": null,
+    "publication_date_text": "1913-03-22",
+    "source_uri": "https://libraryarchives.metro.net/DPGTL/ERJ/erj-electric-railway-journal/1913-erj-volume-41-no-12-march-22.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "date-source-274c8d382becc44d": {
+    "id": "date-source-274c8d382becc44d",
+    "title": "BR-S003",
+    "creator": null,
+    "publication_date_text": "1898-05-19",
+    "source_uri": "https://www.govinfo.gov/content/pkg/SERIALSET-03721_00_00-175-1368-0000/pdf/SERIALSET-03721_00_00-175-1368-0000.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "date-source-2a04671c409dd0f3": {
+    "id": "date-source-2a04671c409dd0f3",
+    "title": "Arlington & Fairfax Uses Passenger Auto-Railers",
+    "creator": null,
+    "publication_date_text": "1936-12-26",
+    "source_uri": "https://archive.org/details/sim_railway-age_1936-12-26_101_26",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "date-source-47ff4e773025c711": {
+    "id": "date-source-47ff4e773025c711",
+    "title": "The Standard Guide: Washington. A Handbook for Visitors",
+    "creator": null,
+    "publication_date_text": "1902",
+    "source_uri": "https://archive.org/details/cu31924020483115",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "date-source-529774805fdea6ac": {
+    "id": "date-source-529774805fdea6ac",
+    "title": "GAP-SRC-RAND1916",
+    "creator": null,
+    "publication_date_text": "1916",
+    "source_uri": "https://archive.org/details/randmcnallywashi00newyor",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "date-source-533c84226d66c7c6": {
+    "id": "date-source-533c84226d66c7c6",
+    "title": "W. N. Smith, The Washington & Old Dominion Railway, Electric Railway Journal",
+    "creator": null,
+    "publication_date_text": "1913-03-22",
+    "source_uri": "https://libraryarchives.metro.net/DPGTL/ERJ/erj-electric-railway-journal/1913-erj-volume-41-no-12-march-22.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "date-source-6f6032f272e12aaf": {
+    "id": "date-source-6f6032f272e12aaf",
+    "title": "Eckington and Soldiers Home Railway Co. v. McDevitt, 191 U.S. 103",
+    "creator": null,
+    "publication_date_text": "1903-11-16",
+    "source_uri": "https://www.govinfo.gov/content/pkg/USREPORTS-191/pdf/USREPORTS-191-103.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "date-source-75829e555111adb7": {
+    "id": "date-source-75829e555111adb7",
+    "title": "Annual Report of the Public Utilities Commission of the District of Columbia, 1915 (published 1916)",
+    "creator": null,
+    "publication_date_text": "1916",
+    "source_uri": "https://archive.org/details/annualreportpub01colugoog/page/n32",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "date-source-7ab4d2cc28175ec7": {
+    "id": "date-source-7ab4d2cc28175ec7",
+    "title": "Twenty-first Annual Report of the Public Utilities Commission of the District of Columbia (year 1933)",
+    "creator": null,
+    "publication_date_text": "1933",
+    "source_uri": "https://www.govinfo.gov/content/pkg/SERIALSET-09863_00_00/pdf/SERIALSET-09863_00_00.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "date-source-9d66f86d24fa03bc": {
+    "id": "date-source-9d66f86d24fa03bc",
+    "title": "Congressional Record, Senate, April 8, 1960: reproduced PUC correspondence",
+    "creator": null,
+    "publication_date_text": "1960-04-08",
+    "source_uri": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt6/pdf/GPO-CRECB-1960-pt6-8-1.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "date-source-aa82a23988ba1f53": {
+    "id": "date-source-aa82a23988ba1f53",
+    "title": "The Greater Fourteenth Street Historic District nomination",
+    "creator": null,
+    "publication_date_text": "1994-03-08",
+    "source_uri": "https://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Fourteenth%20Street%20HD%20nom.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "date-source-b0e1acfe24cd7fba": {
+    "id": "date-source-b0e1acfe24cd7fba",
+    "title": "D.C. Freeway Revolt and the Coming of Metro, Part 3: The Citizens’ Revolt, FHWA",
+    "creator": null,
+    "publication_date_text": null,
+    "source_uri": "https://www.fhwa.dot.gov/highwayhistory/dcrevolt/part03.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "date-source-c4635dbfe89e82b2": {
+    "id": "date-source-c4635dbfe89e82b2",
+    "title": "Annual Report of the Chief of Engineers, 1924, extract: Aqueduct and Francis Scott Key Bridges",
+    "creator": null,
+    "publication_date_text": "1925",
+    "source_uri": null,
+    "url_review_status": "incomplete_url_omitted"
+  },
+  "date-source-c556bf8f53aa9934": {
+    "id": "date-source-c556bf8f53aa9934",
+    "title": "Fourth Annual Report of the Public Utilities Commission of the District of Columbia, 1916 (published 1917)",
+    "creator": null,
+    "publication_date_text": "1917",
+    "source_uri": "https://archive.org/details/annualreportpub02colugoog/page/n14",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "date-source-d4751367b36408e5": {
+    "id": "date-source-d4751367b36408e5",
+    "title": "Mt. Vernon Park Opened, Evening Star",
+    "creator": null,
+    "publication_date_text": "1896-06-08",
+    "source_uri": "https://www.loc.gov/item/sn83045462/1896-06-08/ed-1/",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "date-source-d8456bfa9fc83da1": {
+    "id": "date-source-d8456bfa9fc83da1",
+    "title": "Capital Traction annual report for year ending December 31,1923, Senate Document 30,68th Congress, 1st Session",
+    "creator": null,
+    "publication_date_text": "1924",
+    "source_uri": "https://www.govinfo.gov/content/pkg/SERIALSET-08253_00_00-028-0030-0000/pdf/SERIALSET-08253_00_00-028-0030-0000.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "date-source-d8569aec0d752768": {
+    "id": "date-source-d8569aec0d752768",
+    "title": "Congressional Record, Senate, 8 April 1960, letters of PUC chairman George E. C. Hayes",
+    "creator": null,
+    "publication_date_text": "1960-04-08",
+    "source_uri": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1960-pt6/pdf/GPO-CRECB-1960-pt6-8-1.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "date-source-e0f42c5661615f13": {
+    "id": "date-source-e0f42c5661615f13",
+    "title": "Public Utilities Companies: Annual Reports for Year Ending December 31, 1923",
+    "creator": null,
+    "publication_date_text": "1924",
+    "source_uri": "https://www.govinfo.gov/content/pkg/SERIALSET-08253_00_00-028-0030-0000/pdf/SERIALSET-08253_00_00-028-0030-0000.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "date-source-edd51fea3333c994": {
+    "id": "date-source-edd51fea3333c994",
+    "title": "Annual Report of the Public Utilities Commission of the District of Columbia, 1914 (published 1915), House Document 1701, 63rd Congress, 3rd session",
+    "creator": null,
+    "publication_date_text": "1915",
+    "source_uri": "https://www.govinfo.gov/content/pkg/SERIALSET-06871_00_00/pdf/SERIALSET-06871_00_00.pdf",
+    "url_review_status": "retained_not_live_checked"
+  },
+  "date-source-f97af71f22465d2a": {
+    "id": "date-source-f97af71f22465d2a",
+    "title": "W&OD Great Falls Division valuation sheet V.1 VA/2 with later abandonment index inset",
+    "creator": null,
+    "publication_date_text": "1934-07-19",
+    "source_uri": "https://www.novaparks.com/sites/default/files/GF%26OD%20Val%20Map%203.PDF",
+    "url_review_status": "retained_not_live_checked"
+  }
+}

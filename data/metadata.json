@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0.0",
+  "created_date": "2026-10-09",
+  "segment_count": 269,
+  "title": "Streetcar Physical Track Date Data",
+  "geographic_scope": "Washington, D.C. and environs",
+  "scope": "PhysicalSegment geometry only. The dates estimate historic passenger use on one or more scoped portions, not track construction or removal.",
+  "persistent_caveat": "Proposed outer-year envelope; does not establish uninterrupted service.",
+  "temporal_boundary_convention": "Annual integer filter: start_year <= selected_year <= end_year. Both endpoint years are included. This is a display convention, not a claim of full-year, uninterrupted or whole-segment use.",
+  "year_min": 1862,
+  "year_max": 1962,
+  "confidence_counts": {
+    "medium_high": 141,
+    "low": 108,
+    "very_low": 20
+  },
+  "mixed_subextent_count": 14,
+  "known_period_record_count": 179,
+  "citation_review_fids": [
+    1,
+    2,
+    3,
+    6,
+    112
+  ],
+  "source_count": 193,
+  "publication_status": "User-authorized public research preview. No third-party source license or dataset reuse license is asserted.",
+  "provenance": {
+    "m6_database_sha256": "4aa9908bed4de42f701036a0a03f9f21f4015a0b0e3b4a0c2ccccfb80d1a8a42",
+    "recovered_estimate_bundle_sha256": "2e8012249eceb6f0a7bc2c07206cfe5987f2929d766110e9b9184669cf8ea0a5",
+    "recovered_ledger_sha256": "40365b175bd26b61384aec598037089ab7995b3dfb10dd5b30b068d499ff34a0",
+    "recovered_registry_sha256": "45fc3595e8efa7991b9e829477a2d0e8aaf909b24db4cf75eac0aa1ee0892e3b",
+    "recovered_estimate_declared_baseline_sha256": "105d2da85bee7a4245a2033d08ccd9eae75127e2596e5fc10cab80396e9c0a00",
+    "binding": "Joined only by segment_id to PhysicalSegment.id and ResearchGeometry.segment_id; required identical working_geometry_hash and exact geometry. Current M6 labels preserved. fid is a display/reference field, not a join key.",
+    "review_scope": "Recovery and structural verification of supplied files only. Historical sources were not independently re-opened for this demo; no confidence was upgraded.",
+    "geometry_sha256_convention": "SHA256 of UTF-8 JSON with keys sorted, no spaces, ensure_ascii=False. Geometry coordinates are preserved exactly.",
+    "m6_identity_manifest_sha256": "6a56b087fc8abeaa292a76e6f56ba66e3804b50793fa0e0b46a1162ea9006f84",
+    "sanitized_ledger_sha256": "64c3288c4328429a035e3ee365a8a793a2ce65961994543f358e4dcd4721ad4b",
+    "source_databases_modified": false
+  },
+  "crs": {
+    "name": "WGS 84",
+    "epsg": 4326,
+    "coordinate_order": "longitude, latitude",
+    "units": "decimal degrees",
+    "geojson_standard": "RFC 7946; no legacy crs member emitted"
+  },
+  "file_contract": {
+    "segments.geojson": "269 physical geometries with current M6 names and proposed annual envelope fields",
+    "evidence.json": "Curated public per-segment rationale, scoped-history summaries, claim IDs and citation warnings; no embedded original source payloads",
+    "source_registry.json": "All 193 source records, indexed by source ID; unsafe/incomplete links omitted with explicit status",
+    "field_dictionary.json": "Exact field definitions, temporal convention and unchanged-evidence semantics",
+    "known_citation_issues.json": "Five citation-scope warnings requiring review"
+  },
+  "source_link_review": "No live link checking performed. Four source URLs with token parameters withheld, two incomplete URLs omitted, four absent URLs retained as null.",
+  "temporal_special_cases": [
+    "Best-year slider range is 1862–1962. These are not installation/removal years.",
+    "Do not substitute the expanded uncertainty envelope start_earliest_year through end_latest_year for the best-year filter without an explicit separate mode.",
+    "FIDs 252 and 253 have start_latest_year 1920 after end_earliest_year 1910. Endpoint ranges do not define a certain operating core.",
+    "FIDs 237 and 238 retain an estimated opening date 1923-12-02 with day precision. It is not a verified date. All verified endpoint fields remain null.",
+    "Known-period records exist for 179 segments. They contain heterogeneous interruptions, contextual histories and scenarios. They are preserved as evidence, not normalized or subtracted from the year filter.",
+    "Fourteen explicit mixed-subextent flags are a lower bound on mixed-history cautions; additional prose may describe mixed scope.",
+    "A zero-width endpoint range does not mean the endpoint is verified."
+  ],
+  "public_evidence_policy": "Public assets contain supplied geometry, proposed factual years, editorial rationale/cautions, scoped history summaries, source bibliography/URLs, and claim IDs. Full historical-source payloads, long quotations, original ledger and internal inspection notes are excluded.",
+  "public_release_source": "Built from unchanged validated 269-feature data handoff dated 2026-10-09. Geometry and feature properties preserved byte-for-byte."
+}
