@@ -1,6 +1,6 @@
 # Tracks through time
 
-A static research preview of 269 physical streetcar segments in Washington, D.C. and environs. No runtime dependencies, analytics, account system, external tiles or build step. All asset URLs are relative and work under a GitHub Pages repository subpath.
+A static research preview of 269 physical streetcar segments in Washington, D.C. and environs. No JavaScript runtime dependencies, analytics, account system or build step. USGS basemap tiles load on demand over HTTPS. All asset URLs are relative and work under a GitHub Pages repository subpath.
 
 ## Local use
 
@@ -8,7 +8,7 @@ Keep the directory structure intact and open index.html, or run:
 
     python -m http.server 8000 --bind 127.0.0.1
 
-Then open http://127.0.0.1:8000/. The supplied script data mirror supports offline file opening without fetch requests. Historical source links require the internet only when opened.
+Then open http://127.0.0.1:8000/. The supplied script data mirror supports offline file opening without fetch requests. The track geometry and controls work offline. Basemap tiles and historical source links require the internet. Tile failures leave the historical tracks usable.
 
 ## Controls
 
@@ -16,11 +16,11 @@ Choose an integer year (1862–1962), drag the slider, or use the year step butt
 
 ## Meaning
 
-Always visible: **Proposed outer-year envelope; does not establish uninterrupted service.**
+Always visible: **Estimated years; gaps may exist.**
 
 Annual match: start_year <= selected_year <= end_year. Both endpoint years display. These are proposed earliest/latest passenger-use estimates on one or more scoped portions, not verified installation/removal dates or continuous operation. No canonical OperatingPeriods or route/service UI is included.
 
-141 segments have medium/high confidence at both endpoints; 128 have a low/very-low endpoint, including 20 with a very-low endpoint. Fourteen have explicit mixed-subextent flags, with possible additional mixed history in prose. Citation cautions on fids 1,2,3,6,112 remain visible. WGS 84 longitude/latitude geometry, current M6 names and stable IDs are preserved; display uses a local equirectangular projection without a basemap.
+141 segments have medium/high confidence at both endpoints; 128 have a low/very-low endpoint, including 20 with a very-low endpoint. Fourteen have explicit mixed-subextent flags, with possible additional mixed history in prose. Citation cautions on fids 1,2,3,6,112 remain visible. WGS 84 longitude/latitude geometry, current M6 names and stable IDs are preserved; display uses exact spherical Web Mercator, shared by the SVG track overlay and USGS raster tiles. All tracks are gold; confidence remains in selected-track details.
 
 ## Data, sources and rights
 
@@ -31,3 +31,7 @@ See data/metadata.json for provenance, data/field_dictionary.json for exact feat
 ## GitHub Pages
 
 This folder is the deployable root. Upload only its contents to the selected repository branch/root and configure GitHub Pages to serve that branch. Keep .nojekyll. Do not change asset URLs to leading-slash paths. No SPA rewrite or server-side code is required. Public repository publishing has been separately authorized; this README does not itself grant publication permissions.
+
+## Basemap
+
+USGS Topo provides subdued modern geographic context for the historical tracks. Map services and data available from U.S. Geological Survey, National Geospatial Program. See BASEMAP.md for the verified service, public-domain terms, projection, tile strategy and attribution. No account, key or payment is needed.
