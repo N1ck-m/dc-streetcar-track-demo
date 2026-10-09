@@ -97,7 +97,7 @@
     $('year-slider').style.setProperty('--range-progress',`${state.year-1862}%`);
     $('year-slider').disabled=state.allYears;$('year-number').hidden=state.allYears;$('all-years-label').hidden=!state.allYears;
     $('previous-year').disabled=state.allYears||state.year<=1862;$('next-year').disabled=state.allYears||state.year>=1962;
-    $('all-years').setAttribute('aria-pressed',String(state.allYears));$('all-years').firstChild.textContent=state.allYears?'Return to year ':'Show all years ';
+    $('all-years').setAttribute('aria-pressed',String(state.allYears));$('all-years').firstChild.textContent=state.allYears?'Selected year ':'All years ';
     $('year-caption').textContent=state.allYears?'All proposed physical segments':'Within the proposed envelope';
     renderList();renderSelection();renderDetail();
     announce(`${visible.length} segments match ${state.allYears?'all years':state.year}${state.query?', with search filter':''}.`);
@@ -136,12 +136,8 @@
     box.append(make('span','',`Plausible: ${p[`${prefix}_earliest_year`]}–${p[`${prefix}_latest_year`]}`));return box;
   }
   function renderDetail() {
-    const panel=$('segment-detail');panel.replaceChildren();
-    if(!state.selected){
-      const icon=make('div','welcome-icon');icon.innerHTML='<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 26 12 18 19 21 27 7M5 6 11 10 18 4 26 17"/><circle cx="12" cy="18" r="3"/><circle cx="27" cy="7" r="2"/></svg>';
-      panel.append(make('div','detail-eyebrow','FOLLOW THE EVIDENCE'),icon,make('h2','','Every segment has a story. And a caveat.'),para('Select a track on the map, or find one by name. See its proposed endpoints, plausible ranges, scoped history and historical sources.'));
-      const list=make('ul','welcome-list');for(const [label,n] of [['Source records','193'],['Explicit mixed histories','14'],['Citation-scope reviews','5']]){const li=make('li');li.append(make('span','',label),make('strong','',n));list.append(li);}panel.append(list);return;
-    }
+    const panel=$('segment-detail');panel.replaceChildren();$('details-panel').hidden=!state.selected;
+    if(!state.selected)return;
     const f=byId.get(state.selected),p=f.properties,record=D.evidence.segments[f.id],r=record.recovered_ledger;
     const top=make('div','detail-eyebrow',`PHYSICAL SEGMENT #${p.fid} · ${p.atlas_area_id}`);const close=make('button','','×');close.type='button';close.setAttribute('aria-label','Clear selected segment');close.addEventListener('click',()=>{state.selected=null;renderList();renderSelection();renderDetail();});top.append(close);
     panel.append(top,make('h2','',p.name));
@@ -149,23 +145,24 @@
     panel.append(make('div',`status-chip${included?'':' outside'}`,included?(state.allYears?'Shown · all-years view':`Within proposed ${state.year} envelope`):temporal?'Hidden by search or area/confidence filter':`Outside proposed ${state.year} envelope`));
     const fit=make('button','fit-segment','Zoom to this segment ↗');fit.type='button';fit.addEventListener('click',()=>{view=viewForBounds(geometryBounds([f]),1.9);applyView();});panel.append(fit);
     const grid=make('div','endpoint-grid');grid.append(endpoint('PROPOSED START','start',p),endpoint('PROPOSED END','end',p));panel.append(grid);
-    panel.append(para('Earliest/latest passenger-use estimates for one or more identified portions. No verified endpoint dates.','detail-note'));
-    const badges=make('div','badge-row');if(p.mixed_subextent)badges.append(make('span','badge','Mixed subextents'));if(p.has_known_periods)badges.append(make('span','badge','Historical periods / context'));if(p.confidence_group==='very_low')badges.append(make('span','badge','Very-low endpoint'));if(badges.children.length)panel.append(badges);
-    if(p.citation_review_warning){const warn=make('div','warning');warn.append(make('strong','','Citation-scope review needed'),para(p.citation_review_warning));panel.append(warn);}
-    if(r.scope_caveat)panel.append(para(r.scope_caveat,'detail-note'));
-    if(r.operational_role_uncertainty)panel.append(para(`Passenger-use caution: ${r.operational_role_uncertainty}`,'detail-note'));
-    if(p.start_estimated_date)panel.append(para(`Opening day estimate: ${p.start_estimated_date} (${p.start_precision} precision). This is not a verified date.`,'detail-note'));
-    const rationale=make('section','detail-section');rationale.append(make('h3','','Why these years?'),make('h4','','Proposed opening'),para(r.opening_basis),make('h4','','Proposed closing'),para(r.closing_basis));panel.append(rationale);
-    if(r.source_support_caveat)panel.append(para(r.source_support_caveat,'detail-note'));
-    if(r.subextent_estimates.length)panel.append(disclosure(`Scoped portions (${r.subextent_estimates.length})`,recordsContent(r.subextent_estimates)));
-    if(r.known_periods.length){const body=recordsContent(r.known_periods);body.prepend(para('Retained evidence, not a normalized timeline. These records do not silently remove years from the map.'));panel.append(disclosure(`Known periods & context (${r.known_periods.length})`,body));}
-    if(r.alternative_scenarios.length)panel.append(disclosure(`Alternative histories (${r.alternative_scenarios.length})`,recordsContent(r.alternative_scenarios)));
+    const expanded=make('div','detail-content');const mainPanel=panel;const appendDetail=(...nodes)=>expanded.append(...nodes);
+    appendDetail(para('Earliest/latest passenger-use estimates for one or more identified portions. No verified endpoint dates.','detail-note'));
+    const badges=make('div','badge-row');if(p.mixed_subextent)badges.append(make('span','badge','Mixed subextents'));if(p.has_known_periods)badges.append(make('span','badge','Historical periods / context'));if(p.confidence_group==='very_low')badges.append(make('span','badge','Very-low endpoint'));if(badges.children.length)appendDetail(badges);
+    if(p.citation_review_warning){const warn=make('div','warning');warn.append(make('strong','','Citation-scope review needed'),para(p.citation_review_warning));appendDetail(warn);}
+    if(r.scope_caveat)appendDetail(para(r.scope_caveat,'detail-note'));
+    if(r.operational_role_uncertainty)appendDetail(para(`Passenger-use caution: ${r.operational_role_uncertainty}`,'detail-note'));
+    if(p.start_estimated_date)appendDetail(para(`Opening day estimate: ${p.start_estimated_date} (${p.start_precision} precision). This is not a verified date.`,'detail-note'));
+    const rationale=make('section','detail-section');rationale.append(make('h3','','Why these years?'),make('h4','','Proposed opening'),para(r.opening_basis),make('h4','','Proposed closing'),para(r.closing_basis));appendDetail(rationale);
+    if(r.source_support_caveat)appendDetail(para(r.source_support_caveat,'detail-note'));
+    if(r.subextent_estimates.length)appendDetail(disclosure(`Scoped portions (${r.subextent_estimates.length})`,recordsContent(r.subextent_estimates)));
+    if(r.known_periods.length){const body=recordsContent(r.known_periods);body.prepend(para('Retained evidence, not a normalized timeline. These records do not silently remove years from the map.'));appendDetail(disclosure(`Known periods & context (${r.known_periods.length})`,body));}
+    if(r.alternative_scenarios.length)appendDetail(disclosure(`Alternative histories (${r.alternative_scenarios.length})`,recordsContent(r.alternative_scenarios)));
     const uncertainty=make('div','detail-content');uncertainty.append(para(`Passenger-use qualification: ${human(p.passenger_use_existence)}.`),para(`Geometry correspondence: ${human(p.geometry_correspondence)}.`),para(`Uncertainty group: ${human(p.uncertainty_reason_group)}.`));
     for(const key of ['passenger_use_flag_audit_reason','nonpassenger_interpretation_limit','open_research_question','date_interpretation_for_terminal_piece'])if(r[key])uncertainty.append(para(String(r[key])));
     uncertainty.append(para('Endpoint bounds are inclusive editorial plausible ranges, not statistical confidence intervals. A zero-width range is not verification. The 14 explicit mixed-subextent flags are not a complete inventory of possible mixed history.'));
-    panel.append(disclosure('Scope & uncertainty',uncertainty));
-    if(r.basis_evidence.length)panel.append(disclosure(`Historical claim IDs & locators (${r.basis_evidence.length})`,recordsContent(r.basis_evidence)));
-    if(r.scope_evidence.length)panel.append(disclosure(`Scoped evidence & locators (${r.scope_evidence.length})`,recordsContent(r.scope_evidence)));
+    appendDetail(disclosure('Scope & uncertainty',uncertainty));
+    if(r.basis_evidence.length)appendDetail(disclosure(`Historical claim IDs & locators (${r.basis_evidence.length})`,recordsContent(r.basis_evidence)));
+    if(r.scope_evidence.length)appendDetail(disclosure(`Scoped evidence & locators (${r.scope_evidence.length})`,recordsContent(r.scope_evidence)));
     const sourceIds=[...new Set([...p.source_ids,...p.context_source_ids])];const sourceBox=make('div','detail-content');sourceBox.append(para('Historical source references. A source can support a scoped event or corridor without proving this entire geometry or its lifespan. Links were not live-checked for this preview.'));
     for(const id of sourceIds){const source=D.sources[id];const item=make('div','source');if(!source){item.append(para(`Unresolved source: ${id}`));sourceBox.append(item);continue;}
       item.append(source.source_uri?safeLink(source.source_uri,source.title):make('span','',source.title));
@@ -173,13 +170,14 @@
       if(source.publication_date_text)item.append(para(source.publication_date_text));
       if(!source.source_uri)item.append(para(source.url_review_status==='not_supplied'?'No source URL supplied.':'Source URL omitted pending review.'));
       if(source.inherited_inspection_status)item.append(para(`Inherited review: ${human(source.inherited_inspection_status)}`));sourceBox.append(item);
-    }panel.append(disclosure(`Sources & references (${sourceIds.length})`,sourceBox));
+    }appendDetail(disclosure(`Sources & references (${sourceIds.length})`,sourceBox));
     const provenance=make('div','detail-content');provenance.append(para(`Stable ID: ${p.segment_id}`),para(`Recovered estimate ID: ${p.estimate_id}`),para(`Recovered estimate label: ${p.estimate_label}`),para(`Geometry SHA-256: ${p.geometry_hash}`),para('Display name is the current M6 label. Recovered dates remain provisional, unverified and unadmitted. Geometry, stable ID and current name are preserved.'),localLink('evidence.json','Download public evidence JSON'),document.createTextNode(' · '),localLink('field_dictionary.json','Field definitions'));
-    panel.append(disclosure('Identity & provenance',provenance));
-    panel.append(make('div','identity',p.segment_id));
+    appendDetail(disclosure('Identity & provenance',provenance));
+    appendDetail(make('div','identity',p.segment_id));
+    mainPanel.append(disclosure(p.citation_review_warning?'Details & sources · citation review':'Details & sources',expanded));
   }
   function setYear(raw) {const n=Number(raw);if(!Number.isInteger(n)||n<1862||n>1962){$('year-number').value=state.year;announce('Enter an integer year from 1862 to 1962.');return;}state.year=n;state.allYears=false;redraw();}
-  $('year-slider').addEventListener('input',event=>setYear(event.target.value));$('year-number').addEventListener('change',event=>setYear(event.target.value));
+  $('year-slider').addEventListener('input',event=>setYear(event.target.value));$('year-number').addEventListener('input',event=>{const n=Number(event.target.value);if(Number.isInteger(n)&&n>=1862&&n<=1962)setYear(n);});$('year-number').addEventListener('change',event=>setYear(event.target.value));$('year-number').addEventListener('keydown',event=>{if(event.key==='Enter'){event.preventDefault();setYear(event.target.value);}});
   $('previous-year').addEventListener('click',()=>setYear(state.year-1));$('next-year').addEventListener('click',()=>setYear(state.year+1));
   $('all-years').addEventListener('click',()=>{state.allYears=!state.allYears;redraw();});
   $('search').addEventListener('input',event=>{state.query=event.target.value.toLowerCase().trim();$('segment-list').open=true;redraw();});
